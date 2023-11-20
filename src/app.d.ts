@@ -2,6 +2,9 @@
 // for information about these interfaces
 declare global {
 	declare module '*.png';
+	interface Document {
+		startViewTransition?(callback: () => Promise<void>): void;
+	}
 	namespace App {
 		// interface Error {}
 		// interface Locals {}

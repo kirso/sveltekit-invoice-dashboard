@@ -16,9 +16,9 @@
 				>, by Johnny.
 			</p>
 			<a
-				class="self-start rounded-lg bg-primary-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-primary-700 md:text-base hover:no-underline hover:text-white"
+				class="flex gap-2 self-start rounded-lg bg-primary-500 px-8 py-3 text-sm font-medium text-white transition-colors hover:bg-primary-700 md:text-base hover:no-underline hover:text-white"
 				href="/login"
-				>Log in
+				><span>Log in</span>
 				<MoveRight /></a
 			>
 		</div>
